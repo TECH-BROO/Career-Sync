@@ -1,0 +1,35 @@
+./Crawler/venv/
+./Crawler/.idea
+**/__pycache__/
+**/.pytest_cache/
+./Crawler/.ipynb_checkpoints/
+**/output/
+**/.DS_Store
+*.pyc
+./Crawler/.env
+./Crawler/dist
+
+# Logs
+./Frontend/logs
+*.log
+./Frontend/npm-debug.log*
+./Frontend/yarn-debug.log*
+./Frontend/yarn-error.log*
+./Frontend/pnpm-debug.log*
+./Frontend/lerna-debug.log*
+
+./Frontend/node_modules
+./Frontend/dist
+./Frontend/dist-ssr
+*.local
+
+# Editor directories and files
+./Frontend/.vscode/*
+!.vscode/extensions.json
+./Frontend/.idea
+../Frontend/DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
